@@ -1,8 +1,0 @@
-runtime: java21
-env: flex
-automatic_scaling:
-  min_idle_instances: 1
-  max_idle_instances: 5
-  min_instances: 1
-  max_instances: 5
-instance_class: F2

@@ -70,7 +70,7 @@ public class WebSecurityConfig {
 	public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
 		http.csrf(AbstractHttpConfigurer::disable)
-				//.cors(Customizer.withDefaults()) // Habilita CORS definido en CorsConfig
+				.cors(Customizer.withDefaults()) // Habilita CORS definido en CorsConfig
 				.authorizeHttpRequests(authorize -> authorize
 						.requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
 						.requestMatchers("/api/users/register", "/api/users/login",
