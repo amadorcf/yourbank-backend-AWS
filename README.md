@@ -1,4 +1,4 @@
-# 📌 Aplicación Bancaria - Microservicios con Spring Boot
+# 📌 YourBank - Microservicios con Spring Boot
 
 ## 📖 Introducción
 La aplicación bancaria se ha desarrollado utilizando una arquitectura de microservicios, aprovechando el marco Spring Boot y un conjunto de tecnologías del ecosistema Spring, como Spring Data JPA, Spring Cloud y Spring Security. Para la gestión de dependencias, se utiliza Maven, que facilita la integración y administración de las bibliotecas necesarias.
